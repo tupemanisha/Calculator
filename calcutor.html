@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>calculator</title>
+    <style>
+        .calculator-container
+        {
+            background-color: black;
+            width: 400px; 
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 52px;
+            border-radius: 19px;
+            padding: 20px;
+            padding-bottom: 50px;
+
+        }
+        .screen
+        {
+            font-size: 40px;
+            width: 350px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: darkslategray;
+            margin-bottom: 20px;
+
+
+
+
+        }
+        .button-row
+        {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 5px;
+            padding-top: 9px
+        
+        }
+        .calculator-button
+        {
+            font-size: 41px;
+            height: 70px;
+            width: 70px;
+            border-radius: 9px;
+            cursor:pointer;
+            border: 1.5px solid black;
+
+        }
+        .calculator-button:hover
+        {
+            font-size:42px ;
+            box-shadow: 0 0 0.5px 0.5px white;
+            transition: 1;
+
+            
+        }
+        .brand-name
+        {
+            color: white;
+            text-align: right;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+        .small-screen
+        {
+            height: 26px;
+            width: 26px;
+            background-color:darkslategray ;
+            border: 1px solid black;
+        }
+        .small-screen-container
+        {
+            display: flex;
+            justify-content: end;
+            margin-right: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class=" calculator-container">
+        <p class="brand-name">casio </p>
+        <input type="text" class="screen">
+
+        <div class="small-screen-container">
+        <div class="small-screen"></div>
+        <div class="small-screen"></div>
+        <div class="small-screen"></div>
+        </div>
+         <div class="button-row">
+           <button class="calculator-button" >1</button>
+           <button class="calculator-button" >2</button>
+           <button class="calculator-button" >3</button>
+           <button class="calculator-button" >+</button>
+
+        </div>
+         <div class="button-row">
+            <button class="calculator-button" >4</button>
+            <button class="calculator-button" >5</button>
+            <button class="calculator-button" >6</button>
+            <button class="calculator-button" >-</button>
+ 
+         </div>
+         <div class="button-row">
+            <button class="calculator-button" >7</button>
+            <button class="calculator-button" >8</button>
+            <button class="calculator-button" >9</button>
+            <button class="calculator-button" >x</button>
+ 
+         </div> <div class="button-row">
+            <button class="calculator-button" >0</button>
+            <button class="calculator-button" >/</button>
+            <button class="calculator-button" >.</button>
+            <button class="calculator-button" >=</button>
+ 
+         </div>
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
+
